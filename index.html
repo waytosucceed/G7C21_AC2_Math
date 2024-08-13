@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header {
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 20px;
+        display: flex;
+      }
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1200px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          height: 300px;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+      table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./assests/logo/logo1.png" alt="logo" class="company-logo" />
+        <img src="./assests/logo/logo2.png" alt="logo" class="company-logo" />
+      </div>
+
+      <div class="content-container">
+        <div class="lesson-title">QUADRILATERALS</div>
+
+        <div class="lesson-content">
+          <div>
+            <p>
+              The term quadrilateral is derived from the Latin terms 'Quadra' meaning four and 'Latus' meaning 'sides'. A quadrilateral's four sides do not have to be the same length. As a result, we may classify quadrilaterals according to their sides and angles. 
+              <br><br>
+              <b>What is a Quadrilateral?</b>
+              <br><br>
+              A quadrilateral is a plane shape with four sides (edges) and four corners (vertices). The quadrilateral's angles can be found at its four vertices or corners. If ABCD is a quadrilateral then:
+
+            </p>
+            <Ul>
+              <li>Angles at the vertices = ∠A, ∠B, ∠C and ∠D</li>
+              <li>Sides of a quadrilateral =  AB, BC, CD and DA.</li>
+              </Ul>
+            
+         <p>
+          Diagonals are formed by joining the quadrilateral's opposite vertices. The diagonals of quadrilateral ABCD are represented by AC and BD in the image below. 
+          <img src="./assests/images/1.jpg" alt="">
+          Quadrilaterals can be standard shapes with four sides, such as rectangles, squares, trapezium, and kites, or irregular and uncharacterized, as seen below:
+          <img src="./assests/images/2.jpg" alt="">
+          Let’s have a look at the table below to understand what a quadrilateral is.
+         </p>
+         <table style="width:100%">
+          <tr>
+            <th>Quadrilateral</th>
+            <th>Two-dimensional plane figure enclosed by 4 line segments.</th>
+          </tr>
+          <tr>
+            <td>Number of sides</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Number of vertices</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Number of diagonals</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Sum of  all interior angles</td>
+            <td>360 degrees</td>
+          </tr>
+          <tr>
+            <td>Sum of  all exterior angles</td>
+            <td>360 degrees</td>
+          </tr>
+         </table>
+
+            <h3><u>Types of Quadrilaterals</u></h3>
+            <p>
+              The different types of quadrilaterals are determined by the angles and lengths of their sides. 
+<br><br>As the word 'quad' signifies four, all of these quadrilaterals have four sides, and the sum of their angles is 360 degrees. 
+<br><br>Quadrilaterals are classified into the following types:
+
+            </p>
+            <h4><u>Rectangle</u></h4>
+            <p>
+              It is a quadrilateral in which the opposite sides are equal and parallel to each other and all the angles of a rectangle are equal to 90°. A <b>rectangle shape</b> is characterised by two dimensions, its length and width. The longer side of the rectangle is known as the length and the shorter side is known as the width. 
+              <img src="./assests/images/6.jpg" alt="">
+             <b> Property</b>: The diagonals of a rectangle are of equal length. 
+            </p>
+           <br><br>
+            <p>
+              <b><u>Square:</u></b>
+              A square is a rectangular shape with equal sides. This indicates that a square has all of the features of a rectangle, with the added constraint that all sides be the same length. The square, like the rectangle, has diagonals of the same length.
+              <img src="./assests/images/5.jpg" alt="">
+              <b>Property</b>: A square's diagonals are perpendicular bisectors to one another.
+              <br><br>
+              <b><u>Rhombus:</u></b>
+              A rhombus is a quadrilateral with sides that have the same length. A rhombus is also a parallelogram since its opposite sides are equal in length. So a rhombus combines the features of a parallelogram and a kite.
+              <img src="./assests/images/7.jpg" alt="">
+              <b>Property</b>: The diagonals of a rhombus are perpendicular bisectors of one another.
+
+              <br><br>
+              <b><u>Parallelogram</u></b><br>
+              A parallelogram is a quadrilateral. As the name implies, it has something to do with parallel lines. A parallelogram consists of four sides and four angles.  A rectangle, a rhombus, and a square are special parallelograms because they not only show the properties of a parallelogram but also have unique properties of their own.
+              <img src="./assests/images/4.jpg" alt="">
+              <b>Properties of parallelogram:</b>
+              <ol>
+                <li>A parallelogram's opposite sides are equal in length.</li>
+                <li>A parallelogram's opposite angles have equal measure.</li>
+                <li>A parallelogram's diagonals are typically not of equal length.</li>
+                <li>A parallelogram's diagonals bisect each other at the intersection point.</li>
+              </ol>
+              <br><br>
+              <b><u>Trapezium</u></b><br>
+              It is a quadrilateral with a pair of parallel sides.
+              <img src="./assests/images/3.jpg" alt="">
+              <b><u>Kite</u></b><br>
+              Kite is a special type of quadrilateral. The sides with the same markings in each figure are equal. For example AB = AD and BC = CD. There are exactly two distinct consecutive pairs of sides of equal length.
+              <img src="./assests/images/8.jpg" alt="">
+              <br>
+              <b>Comparison of the properties of common quadrilaterals</b>
+            </p>
+            <table>
+              <thead>
+                  <tr>
+                      <th>Property</th>
+                      <th>Square</th>
+                      <th>Rectangle</th>
+                      <th>Rhombus</th>
+                      <th>Parallelogram</th>
+                      <th>Trapezium</th>
+                      <th>Kite</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Sides</td>
+                      <td>4 equal sides</td>
+                      <td>Opposite sides equal</td>
+                      <td>4 equal sides</td>
+                      <td>Opposite sides equal</td>
+                      <td>1 pair of parallel sides</td>
+                      <td>Two pairs of adjacent sides equal</td>
+                  </tr>
+                  <tr>
+                      <td>Angles</td>
+                      <td>4 right angles</td>
+                      <td>4 right angles</td>
+                      <td>Opposite angles equal</td>
+                      <td>Opposite angles equal</td>
+                      <td>No equal angles</td>
+                      <td>One pair of equal angles</td>
+                  </tr>
+                  <tr>
+                      <td>Diagonals</td>
+                      <td>Diagonals are equal and bisect each other</td>
+                      <td>Diagonals are equal and bisect each other</td>
+                      <td>Diagonals bisect each other at right angles</td>
+                      <td>Diagonals bisect each other but not necessarily equal</td>
+                      <td>Diagonals are not necessarily equal and do not bisect each other</td>
+                      <td>Diagonals are perpendicular and one diagonal bisects the other</td>
+                  </tr>
+                  <tr>
+                      <td>Examples</td>
+                      <td>Chessboard
+                        <img src="./assests/images/9.jpg" alt="chess" style="height: 40%; width: 50%;">
+                      </td>
+                      <td>Doors
+                        <img src="./assests/images/10.jpg" alt="chess" style="height: 40%; width: 50%;">
+                      </td>
+                      <td>Diamond-shaped pendants
+                        <img src="./assests/images/11.jpg" alt="chess" style="height: 40%; width: 50%;">
+                      </td>
+                      <td>Parallelogram shaped table
+                        <img src="./assests/images/12.jpg" alt="chess" style="height: 40%; width: 50%;">
+                      </td>
+                      <td>Trapezium roof
+                        <img src="./assests/images/13.jpg" alt="chess" style="height: 40%; width: 50%;">
+                      </td>
+                      <td>Kites<img src="./assests/images/14.jpg" alt="chess" style="height: 40%; width: 50%;"></td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
